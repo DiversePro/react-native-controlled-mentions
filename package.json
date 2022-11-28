@@ -1,31 +1,41 @@
 {
-  "name": "react-native-controlled-mentions",
-  "version": "2.2.5",
+  "_from": "react-native-controlled-mentions@^2.2.5",
+  "_id": "react-native-controlled-mentions@2.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-fNIQWZMPy9OvPKO3MeLX+J76Ld7OuvrrLn4xwXMOjsYjuEWtVBNc4t/ADxNc3woQCfuSEkST+SbafFpUwwLMIA==",
+  "_location": "/react-native-controlled-mentions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-controlled-mentions@^2.2.5",
+    "name": "react-native-controlled-mentions",
+    "escapedName": "react-native-controlled-mentions",
+    "rawSpec": "^2.2.5",
+    "saveSpec": null,
+    "fetchSpec": "^2.2.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-controlled-mentions/-/react-native-controlled-mentions-2.2.5.tgz",
+  "_shasum": "2eddcdf6b6a0ead0c448be4bb0239e10eca84a29",
+  "_spec": "react-native-controlled-mentions@^2.2.5",
+  "_where": "/Users/mac/Desktop/code/diversepro",
+  "author": {
+    "name": "David Tabaka",
+    "email": "dabakovich@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dabakovich/react-native-controlled-mentions/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "diff": "5.0.0",
+    "string.prototype.matchall": "4.0.3"
+  },
+  "deprecated": false,
   "description": "Fully controlled React Native mentions component",
-  "keywords": [
-    "react",
-    "react-native",
-    "mentions",
-    "text",
-    "text-input"
-  ],
-  "scripts": {
-    
-    "build": "tsc",
-    "test": "jest",
-    "changelog": "github_changelog_generator -u dabakovich -p react-native-controlled-mentions"
-  },
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dabakovich/react-native-controlled-mentions.git"
-  },
-  "author": "David Tabaka <dabakovich@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@types/diff": "^4.0.2",
     "@types/jest": "^26.0.19",
@@ -34,16 +44,37 @@
     "ts-jest": "^26.4.4",
     "typescript": "4.0.5"
   },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/dabakovich/react-native-controlled-mentions#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "mentions",
+    "text",
+    "text-input"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "react-native-controlled-mentions",
   "peerDependencies": {
     "react": ">=16.0",
     "react-native": ">=0.57"
   },
-  "dependencies": {
-    "diff": "5.0.0",
-    "string.prototype.matchall": "4.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/champuu123/react-native-controlled-mentions.git"
   },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
-  }
+  "scripts": {
+    "build": "tsc",
+    "changelog": "github_changelog_generator -u dabakovich -p react-native-controlled-mentions",
+    "test": "jest"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "2.2.5"
 }
