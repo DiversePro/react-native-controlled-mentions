@@ -10,7 +10,7 @@
     "text-input"
   ],
   "scripts": {
-    "prepare": "tsc",
+    
     "build": "tsc",
     "test": "jest",
     "changelog": "github_changelog_generator -u dabakovich -p react-native-controlled-mentions"
