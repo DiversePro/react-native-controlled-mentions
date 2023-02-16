@@ -68,12 +68,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dabakovich/react-native-controlled-mentions.git"
+    "url": "git+https://github.com/champuu123/react-native-controlled-mentions.git"
   },
   "scripts": {
     "build": "tsc",
     "changelog": "github_changelog_generator -u dabakovich -p react-native-controlled-mentions",
-    "prepare": "tsc",
     "test": "jest"
   },
   "types": "./dist/index.d.ts",
