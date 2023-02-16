@@ -72,6 +72,7 @@ const MentionInput = (_a) => {
      */
     const onSuggestionPress = (mentionType) => (suggestion) => {
         const newValue = utils_1.generateValueWithAddedSuggestion(parts, mentionType, plainText, selectionRef.current, suggestion);
+        console.log("newValue");
         if (!newValue) {
             return;
         }
@@ -116,7 +117,7 @@ const MentionInput = (_a) => {
             ),
         react_1.default.createElement(react_native_1.View, { style:[ containerStyle] },
        
-        react_1.default.createElement(react_native_1.TextInput, Object.assign({ multiline: true }, textInputProps, { ref: handleTextInputRef, onChangeText: onChangeInput, onSelectionChange: handleSelectionChange,onLayout:onLayout,scrollEnabled:false }),
+        react_1.default.createElement(react_native_1.TextInput, Object.assign({ multiline: true }, textInputProps, { ref: handleTextInputRef, onChangeText: onChangeInput, onSelectionChange: handleSelectionChange,onLayout:onLayout,scrollEnabled:true }),
             react_1.default.createElement(react_native_1.Text, null, parts.map(({ text, partType, data }, index) => {
                 var _a, _b;
                 return partType ? (react_1.default.createElement(react_native_1.Text, { key: `${index}-${(_a = data === null || data === void 0 ? void 0 : data.trigger) !== null && _a !== void 0 ? _a : 'pattern'}`, style: (_b = partType.textStyle) !== null && _b !== void 0 ? _b : utils_1.defaultMentionTextStyle }, text)) : (react_1.default.createElement(react_native_1.Text, { key: index }, text));

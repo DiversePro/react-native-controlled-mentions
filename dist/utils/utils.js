@@ -208,10 +208,12 @@ const generateValueWithAddedSuggestion = (parts, mentionType, plainText, selecti
     var _a;
     const currentPartIndex = parts.findIndex(one => selection.end >= one.position.start && selection.end <= one.position.end);
     const currentPart = parts[currentPartIndex];
+    console.log("Current Part", suggestion);
     if (!currentPart) {
         return;
     }
     const triggerPartIndex = currentPart.text.lastIndexOf(mentionType.trigger, selection.end - currentPart.position.start);
+    console.log("triggerPartIndex", parts);
     const newMentionPartPosition = {
         start: triggerPartIndex,
         end: selection.end - currentPart.position.start,
