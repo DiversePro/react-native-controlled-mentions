@@ -63,7 +63,7 @@
   "main": "./dist/index.js",
   "name": "react-native-controlled-mentions",
   "peerDependencies": {
-    "react": ">=16.0",
+    "react": ">=18.0.0",
     "react-native": ">=0.57"
   },
   "repository": {
